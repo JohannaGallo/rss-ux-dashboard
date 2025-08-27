@@ -1,0 +1,65 @@
+/* style.css */
+
+/* Reset y tipografía */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #222;
+}
+
+/* Input y botón */
+input, button {
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Botón con hover */
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Lista de resultados */
+ul#feed-results {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul#feed-results li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+ul#feed-results li:hover {
+    transform: scale(1.02);
+}
+
+/* Links dentro de la lista */
+ul#feed-results li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+ul#feed-results li a:hover {
+    text-decoration: underline;
+}
